@@ -15,14 +15,18 @@ While most people use their hosting provider's nameservers, or ones of Cloudflar
 
 ## Building
 
-`git clone git@github.com:kevinroleke/whiteflag.git`
-`cd whiteflag`
-`go build`
+```shell
+$ git clone git@github.com:kevinroleke/whiteflag.git
+$ cd whiteflag
+$ go build
+```
 
 ## Usage
 
-`./whiteflag --scan`
-`./whiteflag --cname`
+```shell
+$ ./whiteflag --scan
+$ ./whiteflag --cname
+```
 
 ## TODO
 
